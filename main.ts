@@ -1,4 +1,3 @@
-pins.digitalWritePin(DigitalPin.P2, 0)
 basic.forever(function () {
-	
+    pins.analogWritePin(AnalogPin.P0, 2)
 })
